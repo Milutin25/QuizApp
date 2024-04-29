@@ -1,0 +1,59 @@
+#container{
+    max-width: 700px;
+    margin:auto;
+    text-align:center;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-image: url("https://media.istockphoto.com/id/1136317339/photo/sports-equipment-on-floor.jpg?s=612x612&w=0&k=20&c=-aI8u_Se89IC-HJZYH724ei5z-bIcSvRW6qUwyMtRyE=");
+    background-size:cover;
+}   
+h1{
+    color:black; 
+}
+#question{
+    width:50%;
+    height:1.5rem;
+    margin: 10px;
+    padding: 5px;
+    border:1px solid gray;
+    border-radius:5px; 
+    background-color:white;
+}
+#answers{
+    width:50%;
+    height:12rem;
+    margin: 10px;
+    padding: 5px;
+    border:1px solid gray;
+    border-radius:5px;
+    background-color:white; 
+}
+.answer{
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: pink;
+}
+button:hover {
+    background-color: lightgrey;
+}
+#score{
+    width:50%;
+    height:1.5rem;
+    margin: 10px;
+    padding: 5px;
+    border:1px solid gray;
+    border-radius:5px;
+    background-color:white; 
+}
+@media only screen and (max-width: 768px) {
+    #container {
+        max-width: 80%;
+    }
+}
+@media only screen and (max-width: 480px){
+    #container {
+        max-width: 90%;
+    }
+}
